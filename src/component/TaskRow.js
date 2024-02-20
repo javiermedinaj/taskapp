@@ -6,6 +6,7 @@ export const TaskRow = ({ task, toggleTask }) => (
                 type="checkbox"
                 checked={task.done}
                 onChange={() => toggleTask(task)}
+                className="form-check-input ms-5"
             />
         </td>
     </tr>

@@ -15,7 +15,7 @@ export const TaskCreator = ({ createNewTask }) => {
     };
 
     return (
-        <form className="my-2 row" onSubmit={handleSubmit}>
+        <form className="my-4 row" onSubmit={handleSubmit}>
             <div className="col-9">
                 <input
                     type="text"
